@@ -1,56 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 <head>
 	<title>Vladyslav Bondarenko home page.</title>
+	<meta charset='UTF-8' >
+	<link rel='stylesheet' href='./css/layout.css'>
 </head>
 <body>
 	<article>
 		<header>
 			<h1>Vladyslav Bondarenko</h1>
 		</header>
-		<main>
+		<section>
+			<header>
+				<h2>Summary.</h2>
+			</header>
+			<p>Back-end and relational database developer.</p>
+		</section>
+		<section>
+			<header>
+				<h2>Technologies.</h2>
+			</header>
 			<section>
 				<header>
-					<h2>Summary.</h2>
-				</header>
-				<p>Back-end and relational database developer.</p>
-			</section>
-			<section>
-				<header>
-					<h2>Technologies.</h2>
-				</header>
-				<section>
-					<header>
-						<h3>Programming languages.</h3>
-					</header>
-					<ul>
-						<li>Java 7</li>
-						<li>PHP 4, 5</li>
-					</ul>
-				</section>
-				<section>
-					<header>
-						<h3>Database management systems.</h3>
-					</header>
-					<ul>
-						<li>PostgreSQL 9.2</li>
-						<li>MySQL 5</li>
-						<li>Oracle 11</li>
-					</ul>
-				</section>
-			</section>
-			<section>
-				<header>
-					<h2>Languages.</h2>
+					<h3>Programming languages.</h3>
 				</header>
 				<ul>
-					<li>English.</li>
-					<li>Russian.</li>
-					<li>Polish.</li>
-					<li>Ukrainian.</li>
+					<li>Java 7</li>
+					<li>PHP 4, 5</li>
+					<li>JavaScript</li>
+				</ul>
+				<section>
+					<header>
+						<h4>Frameworks and libraries.</h4>
+					</header>
+					<ul>
+						<li>Zend 2</li>
+						<li>JQuery 2</li>
+						<li>AngularJS</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<header>
+					<h3>Database management systems.</h3>
+				</header>
+				<ul>
+					<li>PostgreSQL 9.2</li>
+					<li>MySQL 5</li>
+					<li>Oracle 11</li>
 				</ul>
 			</section>
-		</main>
+		</section>
+		<section>
+			<header>
+				<h2>Best projects.</h2>
+			</header>
+			<section class='project'>
+				<header>
+					<h3>Web application for on-line interviewing.</h3>
+				</header>
+				<p>Currently allows only to take assessments, manually added to the database via SQL statements. Other features, such as creating and sharing tasks and assessments are potentially available, but lack graphical user interface.</p>
+				<p>Written in plain Java 7. Uses PostgreSQL 9.2.</p>
+				<p>GitHub repositories: <a href='https://github.com/Wbondar/learn'>Java</a> <a href='https://github.com/Wbondar/learn-db'>SQL</a></p>
+				<a href='https://interactive-interviewing.rhcloud.com/'>Try out.</a>
+			</section>
+			<section class='project'>
+				<header>
+					<h3>E-commerce web application.</h3>
+				</header>
+				<p>Allows searhing by product name, category or price. Has graphical control panel for creating, updating and destroying products and product categories. Uses external services for purchasing.</p>
+				<p>Written in plain PHP 5.2. For storage MySQL 5 was used.</p>
+				<a href='http://elmaslo.ru/'>Try out.</a>
+			</section>
+		</section>
+		<section>
+			<header>
+				<h2>Languages.</h2>
+			</header>
+			<ul>
+				<li>English.</li>
+				<li>Russian.</li>
+				<li>Polish.</li>
+				<li>Ukrainian.</li>
+			</ul>
+		</section>
 		<footer>
 			<p>Career information of software developer named Vladyslav Bondarenko.</p>
 			<p>Last update 2015-05-13.</p>

@@ -1,0 +1,16 @@
+section
+{
+	margin-left:1%;
+	border-left: 1px solid black;
+	padding-left: 1em;
+}
+
+footer
+{
+	color: darkgrey;
+}
+
+.project
+{
+	border: 1px dotted grey;
+}
