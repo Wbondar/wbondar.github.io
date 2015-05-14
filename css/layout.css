@@ -3,9 +3,12 @@ h1
 	text-align: center;
 }
 
-body > section, article > section
+@media screen
 {
-	box-shadow: 0px 0px 15px 5px lightgrey;
+	body > section, article > section
+	{
+		box-shadow: 0px 0px 15px 5px lightgrey;
+	}	
 }
 
 body > article
@@ -48,7 +51,17 @@ footer
 	text-align: center;
 }
 
+@media print
+{
+	footer
+	{
+		background-color: white;
+		color:            grey;
+	}
+}
+
 .project
 {
 	border: 1px dotted grey;
+	margin-bottom: 0.3em;
 }
