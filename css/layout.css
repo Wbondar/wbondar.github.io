@@ -1,3 +1,23 @@
+nav
+{
+	text-align: center;
+	width: 100%;
+}
+
+@media print
+{
+	nav *
+	{
+		display: none;
+	}
+}
+
+nav li 
+{
+	list-style: none;
+	display: inline;
+}
+
 h1
 {
 	text-align: center;
@@ -63,5 +83,5 @@ footer
 .project
 {
 	border: 1px dotted grey;
-	margin-bottom: 0.3em;
+	margin-bottom: 0.1em;
 }
