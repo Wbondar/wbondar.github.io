@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='$HTML_LANG'>
 <head>
-  <title>Home page of Vladyslav Bondarenko.</title>
+  <title>$TITLE</title>
   <meta charset='UTF-8' >
   <link rel='stylesheet' href='./css/layout.css'>
 </head>
@@ -14,26 +14,26 @@
   </nav>
   <article>
     <header>
-      <h1>Vladyslav Bondarenko</h1>
+      <h1>$HEADER</h1>
     </header>
     <section>
       <header>
-        <h2>Summary.</h2>
+        <h2>$SUMMARY_HEADER</h2>
       </header>
-      <p>Developer of web-applications and relational databases.</p>
+      <p>$SUMMARY_MAIN</p>
       <section>
-        <h3>Contacts.</h3>
+        <h3>$CONTACTS_HEADER</h3>
         <address><a href='mailto:wbondarenko@programmer.net'>wbondarenko@programmer.net</a></address>
       </section>
-      <p>I hereby give consent for my personal data to be processed for the purposes of recruitment, in accordance with the Personal Data Protection Act dated 29.08.1997 (uniform text: Journal of Laws of the Republic of Poland 2002 No 101, item 926 with further amendments).</p>
+      <p>$DESCLIMER</p>
     </section>
     <section>
       <header>
-        <h2>Technologies.</h2>
+        <h2>$TECHNOLOGIES_HEADER</h2>
       </header>
       <section>
         <header>
-          <h3>Programming languages.</h3>
+          <h3>$PROGRAMMING_LANGUAGES_HEADER</h3>
         </header>
         <ul>
           <li>Java 7</li>
@@ -42,7 +42,7 @@
         </ul>
         <section>
           <header>
-            <h4>Frameworks and libraries.</h4>
+            <h4>$FRAMEWORKS_AND_LIBRARIES_HEADER</h4>
           </header>
           <ul>
             <li>Zend 2</li>
@@ -53,7 +53,7 @@
       </section>
       <section>
         <header>
-          <h3>Database management systems.</h3>
+          <h3>$DBMSS_HEADER</h3>
         </header>
         <ul>
           <li>PostgreSQL 9.2</li>
@@ -63,7 +63,7 @@
       </section>
       <section>
         <header>
-          <h3>Collaboration tools.</h3>
+          <h3>$COLLABORATION_TOOLS_HEADER</h3>
         </header>
         <ul>
           <li>Git</li>
@@ -73,18 +73,18 @@
     </section>
     <section>
       <header>
-        <h2>Best public projects.</h2>
+        <h2>$PROJECTS_HEADER</h2>
       </header>
       <article class='project'>
         <header>
-          <h3>Interactive interviewing.</h3>
+          <h3>$LEARN_HEADER</h3>
 	  <a href='https://interactive-interviewing.rhcloud.com/'>https://interactive-interviewing.rhcloud.com/</a>
         </header>
-        <p></p>
-        <footer>E-learning web application for on-line assessment taking and test composing. Written in plain Java 7. Uses PostgreSQL 9.2 for data management.</footer>
+        <p>$LEARN_DESCRIPTION</p>
+        <footer>$LEARN_FOOTER</footer>
         <section>
           <header>
-            <h4>GitHub repositories:</h4>
+            <h4>$GITHUB_REPOSITORIES_HEADER</h4>
           </header>
           <ul>
             <li>Java: <a href='https://github.com/Wbondar/learn'>https://github.com/Wbondar/learn</a></li>
@@ -94,20 +94,20 @@
       </article>
       <article class='project'>
         <header>
-          <h3>El-maslo.</h3>
+          <h3>$ELMASLO_HEADER</h3>
 	  <a href='http://elmaslo.ru/'>http://elmaslo.ru/</a>
         </header>
-        <p>Allows filtering and sorting by product name, category or price or combination of those. Has graphical control panel for creating, updating and destroying products and product categories. Uses external services for purchasing.</p>
-        <footer>E-commerce web application (e-shop), written in plain PHP 5.2. Uses MySQL 5 for data management.</footer>
+        <p>$ELMASLO_DESCRIPTION</p>
+        <footer>$ELMASLO_FOOTER</footer>
       </article>
     </section>
     <section>
       <header>
-        <h2>Courses.</h2>
+        <h2>$COURSES_HEADER</h2>
       </header>
       <ul>
-        <li><a href='https://www.netacad.com/courses/ccna'>CISCO Routing & Switching v. 5</a> (on-going).</li>
-        <li><a href='https://www.novell.com/training/courseware/ts_proj_info.jsp?pid=37066' >SUSE Linux Enterprise 11 Administration</a> (on-going).</li>
+        <li><a href='https://www.netacad.com/courses/ccna'>CISCO Routing & Switching v. 5</a> ($ONGOING).</li>
+        <li><a href='https://www.novell.com/training/courseware/ts_proj_info.jsp?pid=37066' >SUSE Linux Enterprise 11 Administration</a> ($ONGOING).</li>
         <li><a href='https://www.netacad.com/courses/intro-cybersecurity'>Introducion to cybersecurity</a>.</li>
         <li><a href='https://learnable.com/courses/node-js-an-introduction-2866'>Node.js: An Introduction</a>.</li>
         <li><a href='https://www.codeschool.com/courses/shaping-up-with-angular-js'>Shaping up with Angular.js</a>.</li>
@@ -115,18 +115,18 @@
     </section>
     <section>
       <header>
-        <h2>Languages.</h2>
+        <h2>$LANGUAGES_HEADER</h2>
       </header>
       <ul>
-        <li>English.</li>
-        <li>Russian.</li>
-        <li>Polish.</li>
-        <li>Ukrainian.</li>
+        <li>$ENGLISH</li>
+        <li>$RUSSIAN</li>
+        <li>$POLISH</li>
+        <li>$UKRAINIAN</li>
       </ul>
     </section>
     <footer>
-      <p>Vladyslav Bondarenko's resume.</p>
-      <p>Last update: 2015-05-18.</p>
+      <p>$FOOTER</p>
+      <p>$DATE</p>
     </footer>
   </article>
 </body>
