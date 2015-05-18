@@ -31,6 +31,12 @@ h1
 	}	
 }
 
+article, section
+{
+
+	page-break-inside: avoid;
+}
+
 body > article
 {
 	width: 100%;
