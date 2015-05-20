@@ -21,11 +21,21 @@
         <h2>$SUMMARY_HEADER</h2>
       </header>
       <p>$SUMMARY_MAIN</p>
+	<section>
+		<header>
+			<h3>$LANGUAGES_HEADER</h3>
+		</header>
+		<ul>
+			<li>$ENGLISH</li>
+			<li>$RUSSIAN</li>
+			<li>$POLISH</li>
+			<li>$UKRAINIAN</li>
+		</ul>
+	</section>
       <section>
         <h3>$CONTACTS_HEADER</h3>
         <address><a href='mailto:wbondarenko@programmer.net'>wbondarenko@programmer.net</a></address>
       </section>
-      <p>$DESCLIMER</p>
     </section>
     <section>
       <header>
@@ -38,11 +48,13 @@
         <ul>
           <li>Java 7</li>
           <li>PHP 4, 5</li>
+          <li>SQL, PL/SQL, PL/pgSQL</li>
           <li>JavaScript</li>
         </ul>
+      </section>
         <section>
           <header>
-            <h4>$FRAMEWORKS_AND_LIBRARIES_HEADER</h4>
+            <h3>$FRAMEWORKS_AND_LIBRARIES_HEADER</h3>
           </header>
           <ul>
             <li>Zend 2</li>
@@ -50,7 +62,6 @@
             <li>AngularJS</li>
           </ul>
         </section>
-      </section>
       <section>
         <header>
           <h3>$DBMSS_HEADER</h3>
@@ -61,45 +72,36 @@
           <li>Oracle 11</li>
         </ul>
       </section>
-      <section>
-        <header>
-          <h3>$COLLABORATION_TOOLS_HEADER</h3>
-        </header>
-        <ul>
-          <li>Git</li>
-          <li>Asana</li>
-        </ul>
-      </section>
     </section>
+	<section>
+	<header>
+	  <h2>$COLLABORATION_TOOLS_HEADER</h2>
+	</header>
+	<ul>
+	  <li>Git</li>
+	  <li>Asana</li>
+	</ul>
+	</section>
     <section>
       <header>
         <h2>$PROJECTS_HEADER</h2>
       </header>
-      <article class='project'>
+      <section>
         <header>
           <h3>$LEARN_HEADER</h3>
 	  <a href='https://interactive-interviewing.rhcloud.com/'>https://interactive-interviewing.rhcloud.com/</a>
         </header>
-        <p>$LEARN_DESCRIPTION</p>
-        <footer>$LEARN_FOOTER</footer>
-        <section>
-          <header>
-            <h4>$GITHUB_REPOSITORIES_HEADER</h4>
-          </header>
           <ul>
             <li>Java: <a href='https://github.com/Wbondar/learn'>https://github.com/Wbondar/learn</a></li>
             <li>SQL: <a href='https://github.com/Wbondar/learn-db'>https://github.com/Wbondar/learn-db</a></li>
           </ul> 
-        </section>
-      </article>
-      <article class='project'>
+      </section>
+      <section>
         <header>
           <h3>$ELMASLO_HEADER</h3>
 	  <a href='http://elmaslo.ru/'>http://elmaslo.ru/</a>
         </header>
-        <p>$ELMASLO_DESCRIPTION</p>
-        <footer>$ELMASLO_FOOTER</footer>
-      </article>
+      </section>
     </section>
     <section>
       <header>
@@ -113,20 +115,9 @@
         <li><a href='https://www.codeschool.com/courses/shaping-up-with-angular-js'>Shaping up with Angular.js</a>.</li>
       </ul>
     </section>
-    <section>
-      <header>
-        <h2>$LANGUAGES_HEADER</h2>
-      </header>
-      <ul>
-        <li>$ENGLISH</li>
-        <li>$RUSSIAN</li>
-        <li>$POLISH</li>
-        <li>$UKRAINIAN</li>
-      </ul>
-    </section>
     <footer>
-      <p>$FOOTER</p>
-      <p>$DATE</p>
+      <p>$DESCLIMER</p>
+	<p>$DATE</p>
     </footer>
   </article>
 </body>
