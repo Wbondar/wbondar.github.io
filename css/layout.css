@@ -1,7 +1,56 @@
+@media screen
+{
+	body 
+	{
+		min-width:       100%;
+		min-height:      100%;
+		background-color: brown;
+		background: url("../img/background.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media screen
+{
+	main
+	{
+		width:       100%;
+		height:      100%;
+		max-width:   8.27in;
+		max-height:  11.69in;
+		margin:      0 auto;
+		padding-top: 3em;
+	}
+}
+
+main > article
+{
+	position: relative;
+	background-color: white;
+	z-index: 1;
+}
+
+main > article *
+{
+	margin-left: 1%;
+}
+
+@media screen 
+{
+	main > article
+	{
+		box-shadow: 6px 6px 6px black;
+	}
+}
+
 nav
 {
-	text-align: center;
-	width: 100%;
+	list-style: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 @media print
@@ -12,10 +61,37 @@ nav
 	}
 }
 
-nav li 
+nav a, nav a:link, nav a:active
 {
-	list-style: none;
-	display: inline;
+	z-index: 0;
+    position: relative;
+	text-decoration: none;
+	background-color: white;
+	color: black;
+}
+
+nav a:hover
+{
+	z-index: 0;
+    position: relative;
+}
+
+@media screen 
+{
+	nav a
+	{
+		box-shadow: 6px 6px 6px black;
+	}
+}
+
+a.selected
+{
+	background-color: white;
+}
+
+a.unselected
+{
+	background-color: grey;
 }
 
 ul 
@@ -31,27 +107,6 @@ h1
 section p
 {
 	padding: 1%;
-}
-
-@media screen
-{
-	body > article > section
-	{
-		box-shadow: 0px 0px 15px 5px lightgrey;
-	}	
-}
-
-body > article
-{
-	width: 100%;
-	height: 100%;
-	max-width: 13in;
-	margin: 0 auto;
-}
-
-body > article *
-{
-	margin-left: 1%;
 }
 
 *
@@ -75,12 +130,13 @@ section section
 	border-color: grey;
 }
 
-@media all and (min-width: 7in)
+@media all and (min-width: 7in) and (min-device-width: 7in)
 {
 	section section
 	{	
 		float: left;
 		min-width: 3.5in;
+		height: 1.22in;
 	}
 }
 
@@ -110,22 +166,8 @@ section section section section
 	border-color: lightgrey;
 }
 
-body > article > footer
+main > article > footer
 {
-	width: 100%;
-	height: 100%;
 	border-top: 1px solid grey;
-	color: white;
-	background-color: darkgrey;
-	text-align: center;
-}
-
-@media print
-{
-	body > article > footer
-	{
-		background-color: white;
-		color:            black;
-		text-align: left;
-	}
+	text-align: left;
 }
