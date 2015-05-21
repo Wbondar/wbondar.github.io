@@ -33,7 +33,10 @@
 		</section>
 				<section>
 					<h3>$CONTACTS_HEADER</h3>
-					<address><a href='mailto:wbondarenko@programmer.net'>wbondarenko@programmer.net</a></address>
+					<address>
+						<a href='mailto:wbondarenko@programmer.net'>wbondarenko@programmer.net</a>
+						<a href='https://github.com/Wbondar'>https://github.com/Wbondar</a>
+					</address>
 				</section>
 			</section>
 			<section>
@@ -56,6 +59,7 @@
 							<h3>$FRAMEWORKS_AND_LIBRARIES_HEADER</h3>
 						</header>
 						<ul>
+							<li>JUnit 3</li>
 							<li>Zend 2</li>
 							<li>JQuery 2</li>
 							<li>AngularJS</li>
@@ -74,10 +78,12 @@
 			</section>
 		<section>
 		<header>
-			<h2>$COLLABORATION_TOOLS_HEADER</h2>
+			<h2>$OTHER_HEADER</h2>
 		</header>
 		<ul>
-			<li>Git</li>
+			<li>Linux (Bash)</li>
+			<li>Git (GitHub)</li>
+			<li>Maven</li>
 			<li>Asana</li>
 		</ul>
 		</section>
