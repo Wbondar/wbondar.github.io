@@ -2,14 +2,14 @@
 {
 	body 
 	{
-		min-width:       100%;
-		min-height:      100%;
-		background-color: brown;
-		background: url("../img/background.jpg") no-repeat center center fixed;
+		min-width:               100%;
+		min-height:              100%;
+		background-color:        brown;
+		background:              url("../img/background.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		-moz-background-size:    cover;
+		-o-background-size:      cover;
+		background-size:         cover;
 	}
 }
 
@@ -28,9 +28,9 @@
 
 main > article
 {
-	position: relative;
+	position:         relative;
 	background-color: white;
-	z-index: 1;
+	z-index:          1;
 }
 
 main > article *
@@ -48,8 +48,8 @@ main > article *
 
 nav
 {
-	list-style: none;
-	margin-bottom: 0px;
+	list-style:     none;
+	margin-bottom:  0px;
 	padding-bottom: 0px;
 }
 
@@ -63,11 +63,11 @@ nav
 
 nav a, nav a:link, nav a:active, nav a:hover
 {
-	z-index: 0;
-    position: relative;
-	text-decoration: none;
+	z-index:          0;
+    position:         relative;
+	text-decoration:  none;
 	background-color: white;
-	color: black;
+	color:            black;
 }
 
 @media screen 
@@ -105,18 +105,18 @@ section p
 
 *
 {
-	padding-top: 0px;
+	padding-top:    0px;
 	padding-bottom: 0.1em;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top:     0px;
+	margin-bottom:  0px;
 }
 
 section
 {
-	border-left: 1px solid black;
-	overflow: hidden;
+	border-left:       1px solid black;
+	overflow:          hidden;
 	page-break-inside: avoid;
-	margin-bottom: 0.3em;
+	margin-bottom:     0.3em;
 }
 
 section section
@@ -128,9 +128,9 @@ section section
 {
 	section section
 	{	
-		float: left;
+		float:     left;
 		min-width: 3.5in;
-		height: 1.22in;
+		height:    1.22in;
 	}
 }
 
@@ -143,16 +143,16 @@ a
 {
 	section section
 	{
-		float: left;
+		float:     left;
 		min-width: 3.3in;
-		height: 1.22in;
+		height:    1.1in;
 	}
 }
 
 section section section
 {
 	border-color: darkgrey;
-	clear: both;
+	clear:        both;
 }
 
 section section section section
