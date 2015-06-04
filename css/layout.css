@@ -165,3 +165,9 @@ main > article > footer
 	border-top: 1px solid grey;
 	text-align: left;
 }
+
+.project h3 
+{
+	float: left;
+	font-size: 10pt;
+}
