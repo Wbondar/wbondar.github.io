@@ -6,12 +6,14 @@
   <link rel='stylesheet' href='./css/layout.css'>
 </head>
 <body>
-  <main>
+  <aside>
     <nav>
-      <a class='selected' href='./index.html'>English</a>
-      <a class='unselected' href='./pl.html'>Polski</a>
+      <a class='selected' href='./index.html'>Display in English.</a>
+      <a class='unselected' href='./pl.html'>Czytaj w jezyku polskim.</a>
     </nav>
-    <article>
+  </aside>
+  <main>
+    <article class='resume'>
       <header>
         <h1>Vladyslav Bondarenko</h1>
       </header>
@@ -20,24 +22,25 @@
           <h2>Summary.</h2>
         </header>
         <p>Developer of e-commerce and e-learning web-applications and relational databases.</p>
-    <section>
-      <header>
-        <h3>Languages.</h3>
-      </header>
-      <ul>
-        <li>English.</li>
-        <li>Russian.</li>
-        <li>Polish.</li>
-        <li>Ukrainian.</li>
-      </ul>
-    </section>
+        <section>
+          <header>
+            <h3>Languages.</h3>
+          </header>
+          <ul>
+            <li>English.</li>
+            <li>Russian.</li>
+            <li>Polish.</li>
+            <li>Ukrainian.</li>
+          </ul>
+        </section>
         <section>
           <h3>Contacts.</h3>
           <address>
+            Chelm, Lublin wojewodship, Poland.
             <ul>
               <li><a href='mailto:wbondarenko@programmer.net'>wbondarenko@programmer.net</a></li>
-              <li><a href='https://github.com/Wbondar'>https://github.com/Wbondar</a></li>
               <li><a href='https://www.linkedin.com/in/vladyslavbond'>https://www.linkedin.com/in/vladyslavbond</a></li>
+              <li><a href='https://github.com/Wbondar'>https://github.com/Wbondar</a></li>
             </ul>
           </address>
         </section>
@@ -78,62 +81,101 @@
             <li>Oracle 11</li>
           </ul>
         </section>
+        <section>
+          <header>
+            <h3>Collaboration tools.</h3>
+          </header>
+          <ul>
+            <li>Git (GitHub)</li>
+            <li>Maven</li>
+            <li>Asana</li>
+          </ul>
+        </section>
+        <section>
+          <header>
+            <h3>Operation systems.</h3>
+          </header>
+          <ul>
+            <li>Ubuntu</li>
+            <li>RedHat</li>
+            <li>SUSE</li>
+          </ul>
+        </section>
       </section>
-    <section>
-    <header>
-      <h2>Other.</h2>
-    </header>
-    <ul>
-      <li>Linux (Bash)</li>
-      <li>Git (GitHub)</li>
-      <li>Maven</li>
-      <li>Asana</li>
-    </ul>
-    </section>
       <section>
         <header>
           <h2>Best public projects.</h2>
         </header>
-        <article class='project'>
+        <section class='project'>
           <header>
             <h3>Interactive interviewing.</h3>
             <a href='https://interactive-interviewing.rhcloud.com/'>http://tinyurl.com/qbbrgpa</a>
           </header>
-        </article>
-        <article class='project'>
+        </section>
+        <section class='project'>
           <header>
             <h3>El-maslo.</h3>
             <a href='http://elmaslo.ru/'>http://elmaslo.ru/</a>
           </header>
-        </article>
-        <article class='project'>
+        </section>
+        <section class='project'>
           <header>
             <h3>Atmosfera.</h3>
             <a href='http://www.app.adventist-stavropol.ru/'>http://tinyurl.com/oa5gv62</a>
           </header>
-        </article>
-        <article class='project'>
+        </section>
+        <section class='project'>
           <header>
             <h3>Issue tracking app.</h3>
             <a href='https://github.com/Wbondar/techsupport-db'>https://github.com/Wbondar/techsupport-db</a>
           </header>
-        </article>
+        </section>
       </section>
       <section>
         <header>
-          <h2>Courses.</h2>
+          <h2>Education</h2>
         </header>
-        <ul>
-          <li><a href='https://www.netacad.com/courses/ccna'>CISCO Routing & Switching v. 5</a> (on-going).</li>
-          <li><a href='https://www.novell.com/training/courseware/ts_proj_info.jsp?pid=37066' >SUSE Linux Enterprise 11 Administration</a> (on-going).</li>
-          <li><a href='https://www.netacad.com/courses/intro-cybersecurity'>Introducion to cybersecurity</a>.</li>
-          <li><a href='https://learnable.com/courses/node-js-an-introduction-2866'>Node.js: An Introduction</a>.</li>
-          <li><a href='https://www.codeschool.com/courses/shaping-up-with-angular-js'>Shaping up with Angular.js</a>.</li>
-        </ul>
+          <table class='education' border='1'>
+            <tr class='column-header'>
+              <td>Title</td>
+              <td>Specialization</td>
+              <td>Degree</td>
+              <td>Since</td>
+              <td>Until</td>
+            </tr>
+            <tr>
+              <td>The State School of Higher Education in Chełm</td>
+              <td>System administration.</td>
+              <td>Bachelor</td>
+              <td>2013</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Vinnytsia College of Trade and Economics of KNUTE</td>
+              <td>Accounting and bookkeeping.</td>
+              <td>Bachelor</td>
+              <td>2010</td>
+              <td>2013</td>
+            </tr>
+          </table>
+        <section>
+        </section>
+        <section>
+          <header>
+            <h3>Courses.</h3>
+          </header>
+          <ul>
+            <li><a href='https://www.netacad.com/courses/ccna'>CISCO Routing & Switching v. 5</a> (on-going).</li>
+            <li><a href='https://www.novell.com/training/courseware/ts_proj_info.jsp?pid=37066' >SUSE Linux Enterprise 11 Administration</a> (on-going).</li>
+            <li><a href='https://www.netacad.com/courses/intro-cybersecurity'>Introducion to cybersecurity</a>.</li>
+            <li><a href='https://learnable.com/courses/node-js-an-introduction-2866'>Node.js: An Introduction</a>.</li>
+            <li><a href='https://www.codeschool.com/courses/shaping-up-with-angular-js'>Shaping up with Angular.js</a>.</li>
+          </ul>
+        </section>
       </section>
       <footer>
         <p>I hereby give consent for my personal data to be processed for the purposes of recruitment, in accordance with the Personal Data Protection Act dated 29.08.1997 (uniform text: Journal of Laws of the Republic of Poland 2002 No 101, item 926 with further amendments).</p>
-        <p>Last update: 2015-06-04.</p>
+        <p>Last update: 2015-06-10.</p>
       </footer>
     </article>
   </main>
