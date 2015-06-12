@@ -36,6 +36,12 @@ aside *
 		opacity: 0.0;
 		z-index: -1;
 	}
+
+}
+	
+.technologies, .education, .projects, footer, header
+{
+	page-break-inside: avoid;
 }
 
 nav a, nav a:hover, nav a:active, nav a:visited 
