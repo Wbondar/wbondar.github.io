@@ -11,10 +11,16 @@
 		background-color: white;
 	}
 
-	aside
+	aside, .share, .share *
 	{
 		background-color: black;	
+		color: white;
 	}
+}
+
+.share h2
+{
+	font-size: 100%;
 }
 
 aside 
@@ -38,7 +44,7 @@ aside *
 	}
 
 }
-	
+
 .technologies, .education, .projects, footer, header
 {
 	page-break-inside: avoid;
@@ -47,6 +53,12 @@ aside *
 nav a, nav a:hover, nav a:active, nav a:visited 
 {
 	color: grey;
+	white-space: nowrap;
+}
+
+.share a, .share a:hover, .share a:active, .share a:visited 
+{
+	color: white;
 	white-space: nowrap;
 }
 
