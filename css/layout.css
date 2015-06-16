@@ -101,6 +101,11 @@ main
 	max-width: 8in;
 }
 
+.resume .technologies section
+{
+	min-height: 10em;
+}
+
 .education
 {
 	margin: 0 auto;
