@@ -3,14 +3,40 @@
 <head>
   <title>$TITLE</title>
   <meta charset='UTF-8' >
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'> 
+  <meta name='author' content='Vladyslav Bondarenko'>
+  <meta name='description' content='$HTML_DESCRIPTION'> 
+  <base href='http://wbondar.github.io/'>
   <link rel='stylesheet' href='./css/layout.css'>
+  <link rel='author' href='http://wbondar.github.io/'/>
+  <!-- graph -->
+  <meta property='og:title' content='$TITLE' />
+  <meta property='og:site_name' content='$TITLE'/>
+  <meta property='og:url' content='http://wbondar.github.io/' />
+  <meta property='og:description' content='$HTML_DESCRIPTION' />
+  <meta property='og:type' content='profile' />
+  <meta property='og:locale$CURRENT_LOCALE_EN' content='en_US' /> 
+  <meta property='og:locale$CURRENT_LOCALE_PL' content='pl_PL' /> 
+  <meta property='og:locale$CURRENT_LOCALE_RU' content='ru_RU' /> 
+  <meta property='profile:first_name' content='Vladyslav' />
+  <meta property='profile:last_name' content='Bondarenko' />
+  <meta property='profile:username' content='wbondar' />
+  <meta property='profile:gender' content='male' />
 </head>
 <body>
   <aside>
     <nav>
       <a class='$ENGLISH_SELECTED' href='./index.html'>Display in English.</a>
       <a class='$POLISH_SELECTED' href='./pl.html'>Czytaj w jezyku polskim.</a>
+      <a class='$RUSSIAN_SELECTED' href='./ru.html'>Показать на русском.</a>
     </nav>
+    <section class='share'>
+      <header>
+        <h2>$SHARE_HEADER</h2>
+      </header>
+      <a href="http://vk.com/share.php?url=http://wbondar.github.io/$PAGE_TO_SHARE" target="_blank">$SHARE_VK</a>
+      <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://wbondar.github.io/$PAGE_TO_SHARE">$SHARE_FACEBOOK</a>
+    </section>
   </aside>
   <main>
     <article class='resume'>
@@ -45,7 +71,7 @@
           </address>
         </section>
       </section>
-      <section>
+      <section class='technologies'>
         <header>
           <h2>$TECHNOLOGIES_HEADER</h2>
         </header>
@@ -102,7 +128,7 @@
           </ul>
         </section>
       </section>
-      <section>
+      <section class='projects'>
         <header>
           <h2>$PROJECTS_HEADER</h2>
         </header>
@@ -131,7 +157,7 @@
           </header>
         </section>
       </section>
-      <section>
+      <section class='education'>
         <header>
           <h2>$EDUCATION_HEADER</h2>
         </header>
