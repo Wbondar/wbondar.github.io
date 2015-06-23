@@ -122,11 +122,6 @@ main
 	height: auto;
 }
 
-.resume section, .resume article
-{
-	min-width: 2in;
-}
-
 *
 {
 	font-size: 26px;
