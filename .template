@@ -27,7 +27,7 @@
   <aside>
     <nav>
       <a class='$ENGLISH_SELECTED' href='./index.html'>Display in English.</a>
-      <a class='$POLISH_SELECTED' href='./pl.html'>Czytaj w jezyku polskim.</a>
+      <a class='$POLISH_SELECTED' href='./pl.html'>Czytaj w języku polskim.</a>
       <a class='$RUSSIAN_SELECTED' href='./ru.html'>Показать на русском.</a>
     </nav>
     <section class='share'>
