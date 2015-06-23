@@ -99,6 +99,7 @@ main
 {
 	float: left;
 	max-width: 8in;
+	min-width: 3in;
 }
 
 .resume .technologies section
@@ -120,9 +121,4 @@ main
 .resume section section.project
 {
 	height: auto;
-}
-
-article, section
-{
-	min-width: 100%;
 }
