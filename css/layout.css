@@ -71,7 +71,12 @@ nav a.selected
 main
 {
 	width: 100%;
-	max-width: 10in;
+	margin: 0 auto;
+}
+
+.resume
+{
+	max-width: 16in;
 	margin: 0 auto;
 }
 
@@ -98,7 +103,6 @@ main
 .resume section section
 {
 	float: left;
-	max-width: 10in;
 }
 
 .resume .technologies section
