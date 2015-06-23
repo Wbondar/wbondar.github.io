@@ -18,6 +18,11 @@
 	}
 }
 
+article, section
+{
+	min-width: 3in;
+}
+
 .share h2
 {
 	font-size: 100%;
