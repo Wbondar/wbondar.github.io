@@ -1,132 +1,132 @@
 @media screen
 {
-	body
-	{
-		background-color: black;	
-		background-image: url(../img/background.png);
-	}
+ body
+ {
+  background-color: black; 
+  background-image: url(../img/background.png);
+ }
 
-	header, section, footer
-	{
-		background-color: white;
-	}
+ header, section, footer
+ {
+  background-color: white;
+ }
 
-	aside, .share, .share *
-	{
-		background-color: black;	
-		color: white;
-	}
+ aside, .share, .share *
+ {
+  background-color: black; 
+  color: white;
+ }
+
+ *
+ {
+  font-size: 26px;
+ }
 }
 
 .share h2
 {
-	font-size: 100%;
+ font-size: 100%;
 }
 
 aside 
 {
-	text-align: center;
-	width: 100%;
+ text-align: center;
+ width: 100%;
 }
 
 aside * 
 {
-	opacity: 1;
+ opacity: 1;
 }
 
 @media print
 {
-	aside
-	{
-		display: none;
-		opacity: 0.0;
-		z-index: -1;
-	}
+ aside
+ {
+  display: none;
+  opacity: 0.0;
+  z-index: -1;
+ }
 
 }
 
 .technologies, .education, .projects, footer, header
 {
-	page-break-inside: avoid;
+ page-break-inside: avoid;
 }
 
 nav a, nav a:hover, nav a:active, nav a:visited 
 {
-	color: grey;
-	white-space: nowrap;
+ color: grey;
+ white-space: nowrap;
 }
 
 .share a, .share a:hover, .share a:active, .share a:visited 
 {
-	color: white;
-	white-space: nowrap;
+ color: white;
+ white-space: nowrap;
 }
 
 nav a.selected
 {
-	color: white;
-	font-weight: bold;
+ color: white;
+ font-weight: bold;
 }
 
 main
 {
-	width: 100%;
-	margin: 0 auto;
+ width: 100%;
+ margin: 0 auto;
 }
 
 .resume
 {
-	max-width: 16in;
-	margin: 0 auto;
+ max-width: 16in;
+ margin: 0 auto;
 }
 
 .resume header h1, header h2
 {
-	text-align: center;
+ text-align: center;
 }
 
 .resume section
 {
-	margin-bottom: 1em;
+ margin-bottom: 1em;
 }
 
 .resume section > section
 {
-	margin-left: 1%;
+ margin-left: 1%;
 }
 
 .resume section
 {
-	overflow: hidden;
+ overflow: hidden;
 }
 
 .resume section section
 {
-	float: left;
+ float: left;
 }
 
 .resume .technologies section
 {
-	min-height: 10em;
+ min-height: 10em;
 }
 
 .education
 {
-	margin: 0 auto;
+ margin: 0 auto;
 }
 
 .column-header
 {
-	font-weight: bold;
-	text-align: center;
+ font-weight: bold;
+ text-align: center;
 }
 
 .resume section section.project
 {
-	height: auto;
-}
-
-*
-{
-	font-size: 26px;
+ height: auto;
 }
