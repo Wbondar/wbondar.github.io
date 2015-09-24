@@ -130,3 +130,13 @@ main
 {
  height: auto;
 }
+
+.project footer
+{
+ fonst-size:50%;
+}
+
+.dontprint
+{
+ display:none;
+}
