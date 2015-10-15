@@ -7,7 +7,7 @@
   <meta name='author' content='Vladyslav Bondarenko'>
   <meta name='description' content='$HTML_DESCRIPTION'> 
   <base href='http://wbondar.github.io/'>
-  <link rel='stylesheet' href='./css/layout.css'>
+  <link rel='stylesheet' href='css/layout.css'>
   <link rel='author' href='http://wbondar.github.io/'/>
   <!-- graph -->
   <meta property='og:title' content='$TITLE' />
@@ -36,6 +36,7 @@
       </header>
       <a href="http://vk.com/share.php?url=http://wbondar.github.io/$PAGE_TO_SHARE" target="_blank">$SHARE_VK</a>
       <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://wbondar.github.io/$PAGE_TO_SHARE">$SHARE_FACEBOOK</a>
+      <a href="javascript:window.print\(\)">$PRINT</a>
     </section>
   </aside>
   <main>
@@ -62,10 +63,11 @@
         <section>
           <h3>$CONTACTS_HEADER</h3>
           <address>
-            $CHELM
+            $LUBLIN
             <ul>
               <li><a href='mailto:wbondarenko@programmer.net'>wbondarenko@programmer.net</a></li>
               <li><a href='https://www.linkedin.com/in/vladyslavbond'>https://www.linkedin.com/in/vladyslavbond</a></li>
+              <li><a href='http://www.goldenline.pl/vladyslav-bondarenko/'>http://www.goldenline.pl/vladyslav-bondarenko/</a></li>
               <li><a href='https://github.com/Wbondar'>https://github.com/Wbondar</a></li>
             </ul>
           </address>
@@ -80,7 +82,7 @@
             <h3>$PROGRAMMING_LANGUAGES_HEADER</h3>
           </header>
           <ul>
-            <li>Java 7</li>
+            <li>Java 7 (SE, EE)</li>
             <li>PHP 4, 5</li>
             <li>SQL, PL/SQL, PL/pgSQL</li>
             <li>JavaScript</li>
@@ -91,10 +93,14 @@
               <h3>$FRAMEWORKS_AND_LIBRARIES_HEADER</h3>
             </header>
             <ul>
-              <li>JUnit 3</li>
+              <li>Play! 2 (Java)</li>
+              <li>Tomcat 7</li>
+              <li>FreeMarker</li>
+              <li>Thymeleaf</li>
               <li>Zend 2</li>
-              <li>JQuery 2</li>
+              <li>Doctrine 2</li>
               <li>AngularJS</li>
+              <li>JQuery 2</li>
             </ul>
           </section>
         <section>
@@ -102,7 +108,7 @@
             <h3>$DBMSS_HEADER</h3>
           </header>
           <ul>
-            <li>PostgreSQL 9.2</li>
+            <li>PostgreSQL 8, 9</li>
             <li>MySQL 5</li>
             <li>Oracle 11</li>
           </ul>
@@ -115,6 +121,9 @@
             <li>Git (GitHub)</li>
             <li>Maven</li>
             <li>Asana</li>
+            <li>Redmine</li>
+            <li>JUnit 3, 4; WebUnit; DbUnit ...</li>
+            <li>Randoop (Java)</li>
           </ul>
         </section>
         <section>
@@ -123,8 +132,8 @@
           </header>
           <ul>
             <li>Ubuntu</li>
+            <li>SuSE</li>
             <li>RedHat</li>
-            <li>SUSE</li>
           </ul>
         </section>
       </section>
@@ -132,29 +141,34 @@
         <header>
           <h2>$PROJECTS_HEADER</h2>
         </header>
+        <!-- Soon
         <section class='project'>
           <header>
             <h3>$LEARN_HEADER</h3>
-            <a href='https://interactive-interviewing.rhcloud.com/'>http://tinyurl.com/qbbrgpa</a>
+            <a href='https://quizzing-wbondar.rhcloud.com'>https://quizzing-wbondar.rhcloud.com</a>
           </header>
         </section>
+        -->
         <section class='project'>
           <header>
             <h3>$ELMASLO_HEADER</h3>
-            <a href='http://elmaslo.ru/'>http://elmaslo.ru/</a>
+            <a href='http://elmaslo.ru'>http://elmaslo.ru/</a>
           </header>
         </section>
+        <!-- Owner forgot to pay for hosting.
         <section class='project'>
           <header>
             <h3>$ATMOSFERA_HEADER</h3>
-            <a href='http://www.app.adventist-stavropol.ru/'>http://tinyurl.com/oa5gv62</a>
+            <a href='http://www.app.adventist-stavropol.ru'>http://tinyurl.com/oa5gv62</a>
           </header>
         </section>
+        -->
         <section class='project'>
           <header>
             <h3>$TECHSUPPORT_HEADER</h3>
-            <a href='https://github.com/Wbondar/techsupport-db'>https://github.com/Wbondar/techsupport-db</a>
+            <a href='http://techsupport-wbondar.rhcloud.com'>http://tinyurl.com/nufamar</a>
           </header>
+          <footer class='dontprint'>$TECHSUPPORT_FOOTER</footer>
         </section>
       </section>
       <section class='education'>
