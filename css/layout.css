@@ -138,3 +138,8 @@ main
 {
  display:none;
 }
+
+.technologies, .education, .experience
+{
+  white-space: no-wrap;
+}
