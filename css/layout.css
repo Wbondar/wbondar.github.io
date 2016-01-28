@@ -26,6 +26,12 @@
  {
   min-height: 17em;
  }
+
+ .resume
+ {
+  max-width: 16in;
+  margin: 0 auto;
+ }
 }
 
 .share h2
@@ -82,12 +88,6 @@ main
  margin: 0 auto;
 }
 
-.resume
-{
- max-width: 16in;
- margin: 0 auto;
-}
-
 .resume header h1, header h2
 {
  text-align: center;
@@ -141,5 +141,5 @@ main
 
 .technologies, .education, .experience
 {
-  white-space: no-wrap;
+  /*white-space: no-wrap;*/
 }
