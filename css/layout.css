@@ -21,6 +21,11 @@
  {
   font-size: 26px;
  }
+
+ .resume .technologies section
+ {
+  min-height: 17em;
+ }
 }
 
 .share h2
@@ -106,11 +111,6 @@ main
 .resume section section
 {
  float: left;
-}
-
-.resume .technologies section
-{
- min-height: 17em;
 }
 
 .education
