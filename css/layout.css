@@ -58,13 +58,11 @@ aside *
 nav a, nav a:hover, nav a:active, nav a:visited 
 {
  color: grey;
- white-space: nowrap;
 }
 
 .share a, .share a:hover, .share a:active, .share a:visited 
 {
  color: white;
- white-space: nowrap;
 }
 
 nav a.selected
@@ -112,7 +110,7 @@ main
 
 .resume .technologies section
 {
- min-height: 15em;
+ min-height: 17em;
 }
 
 .education
