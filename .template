@@ -44,7 +44,7 @@
       <header>
         <h1>$HEADER</h1>
       </header>
-      <section>
+      <section class='summary'>
         <header>
           <h2>$SUMMARY_HEADER</h2>
         </header>

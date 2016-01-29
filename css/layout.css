@@ -61,7 +61,7 @@ aside *
 
 }
 
-.technologies, .education, .projects, footer, header
+.technologies, .education, .experience, .summary
 {
  page-break-inside: avoid;
 }
