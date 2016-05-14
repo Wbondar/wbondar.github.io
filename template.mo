@@ -144,6 +144,14 @@
         <header>
           <h2>{{EXPERIENCE_HEADER}}</h2>
         </header>
+        <section>
+          <h3><a href='http://devcomm.pl'>{{DEVCOMM_HEADER}}</a></h3>
+          <ul>
+          {{#DEVCOMM_ACTIVITIES}}
+            <li>{{.}}</li>
+          {{/DEVCOMM_ACTIVITIES}}
+          </ul>
+        </section>
           <section>
             <h3>{{FREELANCE_HEADER}}</h3>
             <ul>
