@@ -1,7 +1,6 @@
-#!/bin/sh
+#!/usr/bin/bash
 
-SOURCE=$1
-DESTINATION=$2
-
-source $SOURCE
-eval "echo \"$(< $TEMPLATE)\"" > $DESTINATION
+#cd "$(dirname "$0")" # Go to the script's directory
+source mo
+source $1
+cat template.mo | mo > $2
